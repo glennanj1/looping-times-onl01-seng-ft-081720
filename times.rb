@@ -1,10 +1,11 @@
 def using_times(phrase)
-  phrase
+  phrase = "Wingardium Leviosa"
+  7.times do
+    phrase
+  end
 	#your code here
 end
 
-7.times do 
-  using_times("Wingadium Leviosa")
-end
+
 
 
